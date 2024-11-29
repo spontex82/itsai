@@ -2,4 +2,4 @@
 
 ## Informazioni di base
 
-questo è il mio primo pogetto gestito con Git.
+Questo è il mio primo pogetto gestito con Git.
