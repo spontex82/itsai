@@ -23,7 +23,7 @@
                     </for>
                 </then>
                 <else>
-                    <output expression="&quot;Mi spiace non posso disegnare nulla. Prova a ricominciare&quot;" newline="True"/>
+                    <output expression="&quot;Mi spiace non posso disegnare niente. Prova a ricominciare&quot;" newline="True"/>
                 </else>
             </if>
         </body>
