@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Disegna poligoni"/>
+        <attribute name="authors" value="ITS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-06 01:52:23 "/>
+        <attribute name="created" value="SVRTO0lUUy1QMjU7MjAyNC0xMi0wNjsiMDE6Mjk6MjAgIjsxODk0"/>
+        <attribute name="edited" value="SVRTO0lUUy1QMjU7MjAyNC0xMi0wNjsiMDE6NTI6MjMgIjsxOzIwMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="varScrittura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanti lati deve avere la figura?&quot;" newline="True"/>
+            <input variable="varScrittura"/>
+            <if expression="varScrittura&gt;1">
+                <then>
+                    <for variable="x" start="0" end="varScrittura-1" direction="inc" step="1">
+                        <forward expression="10" pen="down"/>
+                        <turn expression="360/varScrittura" rotate="right"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Mi spiace non posso disegnare nulla. Prova a ricominciare&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
